@@ -1,0 +1,248 @@
+Name: rajneet kaur
+DevOps 
+
+Git Assignments 1-5:
+Git repositories:
+https://github.com/rajneetkaur17/rajni7..git
+https://github.com/rajneetkaur17/rajni77..git
+
+Git Assignment 1:
+
+   21  git init
+   22  pwd
+   23  sudo yum install git
+   24  git --version
+   25  mkdir demo
+   26  cd demo
+   27  ls
+   28  git init
+   29  ls
+   30  ls -al
+   31  touch code.txt
+   32  touch output.txt
+   33  touch log.txt
+   34  ls
+   35  ls -al
+   36  git add code.txt
+   37  git add output.txt
+   38  git status
+   39  git remote add origin https://github.com/rajneetkaur17/rajni7..git
+   40  git config --global user.name "rajneetkaur"
+   41  git config --global user.email "rajneetkaur144@gmail.com"
+   42  git config --list
+   43  git remote add origin https://github.com/rajneetkaur17/rajni7..git
+   44  ls
+   45  git commit -m "my first commit"
+   46  git status
+   47  git branch
+   48  git push origin master
+   49  history
+
+
+Git Assignment 2:
+
+   53  mkdir folder1
+   54  cd folder1
+   55  pwd
+   56  nano feature1.txt
+   57  touch feature1.txt
+   58  touch feature2.txt
+   59  ls
+   60  git branch
+   61  git init
+   62  git status
+   63  rm feature1.txt
+   64  rm feature2.txt
+   65  ls
+   66  git staus
+   67  git status
+   68  git branch
+   69  touch feature1.txt
+   70  touch feature2.txt
+   71  git add feature1.txt
+   72  git add feature2.txt
+   73  git commit -m "assignment 2"
+   74  git branch
+   75  git branch develop
+   76  git branch feature1
+   77  git branch feature2
+   78  git branch
+   79  git checkout develop
+   80  git branch
+   81  touch develop.txt
+   82  ls
+   83  git stash
+   84  ls
+   85  git stash -u
+   86  ls
+   87  git branch
+   88  git checkout feature1
+   89  touch new.txt
+   90  git add .
+   91  ls
+   92  git branch
+   93  git commit -m "another commit"
+   94  ls
+   95  git status
+   96  git checkout master
+   97  git status
+   98  git checkout develop
+   99  ls
+  100  git stash pop
+  101  ls
+  102  git add develop.txt
+  103  git commit -m "commit from develop"
+  104  history
+
+
+Git Assignment 3:
+
+  144  mkdir folder3
+  145  cd folder3
+  146  git init
+  147  git status
+  148  touch main.txt
+  149  git add .
+  150  git commit -m "git add"
+  151  ls
+  152  git branch
+  153  git branch develop
+  154  git branch f1
+  155  git branch f2
+  156  git branch
+  157  ls
+  158  git status
+  159  git checkout develop
+  160  touch develop.txt
+  161  git add .
+  162  git commit -m "add develop"
+  163  git checkout f1
+  164  touch f1.txt
+  165  git add .
+  166  git commit -m "add f2" f1.txt
+  167  git checkout develop
+  168  git commit -m "add develop again" develop.txt
+  169  git checkout f2
+  170  touch f2.txt
+  171  git add .
+  172  git commit -m "add f2" f2.txt
+  173  git checkout master
+  174  ls
+  175  git branch
+  176  git remote add origin https://github.com/rajneetkaur17/rajni77..git
+  177  git push --all
+  178  git branch -d f2
+  179  git branch -D f2
+  180  git push origin --delete f2
+  181  history
+
+
+Git Assignment 4:
+
+  186  mkdir folder4
+  187  cd folder4
+  188  git init
+  189  touch master.txt
+  190  git add .
+  191  git commit -m "add master.txt"
+  192  git branch
+  193  git status
+  194  git branch public1
+  195  git branch public2
+  196  git branch private
+  197  git branch
+  198  git checkout public1
+  199  touch public1.txt
+  200  git add .
+  201  git commit -m "3"
+  202  git status
+  203  ls
+  204  git branch
+  205  git checkout master
+  206  git status
+  207  ls
+  208  git merge public1
+  209  ls
+  210  git checkout public2
+  211  ls
+  212  touch public2.txt
+  213  git add .
+  214  git commit -m "3"
+  215  ls
+  216  git checkout master
+  217  git branch
+  218  git merge public2
+  219  git branch
+  220  ls
+  221  git checkout private
+  222  ls
+  223  vi master.txt
+  224  git add .
+  225  git commit -m "edited master.txt"
+  226  ls
+  227  git branch
+  228  git checkout public1
+  229  git merge private
+  230  git checkout public2
+  231  git merge public1
+  232  git checkout master
+  233  git merge public2
+  234  git checkout private
+  235  git merge master
+  236  history
+
+
+Git Assignment 5:
+
+  243  mkdir folder5
+  244  cd folder5
+  245  git init
+  246  touch master.txt
+  247  git add .
+  248  git commit -m "add master"
+  249  git branch
+  250  git branch develop
+  251  git checkout develop
+  252  git branch
+  253  git branch feature1
+  254  git branch feature2
+  255  git branch
+  256  git checkout feature1
+  257  1.txt
+  258  git add .
+  259  git commit -m "1"
+  260  git checkout feature2
+  261  git checkout feature1
+  262  touch 1.txt
+  263  git add .
+  264  git commit -m "2"
+  265  git checkot feature2
+  266  git checkout feature 2
+  267  git checkout feature2
+  268  touch 2.txt
+  269  git add .
+  270  git commit -m "2"
+  271  ls
+  272  git checkout feature1
+  273  ls
+  274  git checkout develop
+  275  ls
+  276  git merge feature1
+  277  git merge feature2
+  278  ls
+  279  git branch
+  280  git checkout master
+  281  git merge develop
+  282  ls
+  283  git branch
+  284  git branch hotfix
+  285  git checkout hotfix
+  286  ls
+  287  touch hot.txt
+  288  git add .
+  289  git commit -m "3"
+  290  git checkout master
+  291  ls
+  292  git merge hotfix
+  293  ls
+  294  history
